@@ -9,6 +9,12 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
+  preview: {
+    host: true,
+    port: 4173,
+    strictPort: true,
+    allowedHosts: ['4173-iu23c0cmfxfspoajtwrm1-ca0271a9.manusvm.computer'],
+  },
   plugins: [
     react(),
     mode === 'development' &&

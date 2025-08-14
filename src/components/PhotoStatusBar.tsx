@@ -47,7 +47,7 @@ export const PhotoStatusBar: React.FC<PhotoStatusBarProps> = ({
         </div>
         
         <div className="flex items-center gap-4 text-muted-foreground">
-          <span>PhotoForge Pro v2.0</span>
+          <span>ClipCraft v1.0</span>
           <div className="flex items-center gap-1">
             <div className="w-2 h-2 rounded-full bg-success animate-pulse"></div>
             <span>Ready</span>
